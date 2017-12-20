@@ -56,6 +56,9 @@ button.dropbtn {
     /* height: 30px; */
 }
 
+img.werewolf-color {
+    margin-top: 50px;
+}
 .map {
     /* background-color: white; */
     height: 300px;
@@ -92,11 +95,16 @@ button.dropbtn {
     cursor: pointer;
 }*/
 
+.month-dropdown p {
+    margin-top: 20px;
+}
 .dropdown {
     position: relative;
     display: inline-block;
 }
-
+select.dropdown-content {
+    margin-top: 30px
+}
 .dropdown-content {
     /*display: none;
     position: absolute;*/
