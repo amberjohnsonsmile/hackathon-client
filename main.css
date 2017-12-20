@@ -10,9 +10,7 @@ body {
     width: 1024px;
     margin: 0 auto;
 }
-/* * {
-    margin: 1rem;
-} */
+
 .title-header {
     /* display: flex
     align-items: flex-start; */
@@ -68,14 +66,14 @@ button.dropbtn {
 }
 
 /* dropdown menu */
-.dropbtn {
+/*.dropbtn {
     background-color: gray;
     color: white;
     padding: 16px;
     font-size: 24px;
     border: none;
     cursor: pointer;
-}
+}*/
 
 .dropdown {
     position: relative;
@@ -83,12 +81,19 @@ button.dropbtn {
 }
 
 .dropdown-content {
-    display: none;
-    position: absolute;
+    /*display: none;
+    position: absolute;*/
     background-color: #f9f9f9;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    /* Amber's additions */
+    background-color: gray;
+    color: white;
+    padding: 16px;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
 }
 
 .dropdown-content a {
@@ -106,4 +111,19 @@ button.dropbtn {
 
 .dropdown:hover .dropbtn {
     background-color: #000000;
+}
+
+/* table style */
+.dataTable {
+
+}
+
+#map {
+  height: 100%;
+}
+/* Optional: Makes the sample page fill the window. */
+html, body {
+  height: 30vh;
+  margin: 0;
+  padding: 0;
 }

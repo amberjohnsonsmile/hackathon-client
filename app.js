@@ -1,5 +1,7 @@
 const apiURL = "http://localhost:3000/";
 
+// Fetch and post
+
 fetch(apiURL)
     .then(response => response.json())
     .then(console.log)
@@ -15,9 +17,32 @@ function postWolf() {
             "Content-Type": "application/json"
         })
     })
-        .then(response => response.json())
-        .then(console.log)
-        .catch(console.error);
+    .then(response => response.json())
+    .then(console.log)
+    .catch(console.error);
 }
 
 postWolf();
+
+function initMap() {
+  var myLatLng = {lat: -25.363, lng: 131.044};
+
+  var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 4,
+    center: myLatLng
+  });
+
+  var marker = new google.maps.Marker({
+    position: myLatLng,
+    map: map,
+    title: 'Hello World!'
+  });
+}
+
+// Event listeners
+
+document.querySelector("select").addEventListener("change", event => {
+    event.preventDefault();
+    console.log("changed");
+
+});
