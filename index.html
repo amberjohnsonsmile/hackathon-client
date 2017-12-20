@@ -1,30 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>were.com</title>
-        <meta charset="utf-8">
-        <link href="reset.css" type="text/css" rel="stylesheet">
-        <link href="template.css" type="text/css" rel="stylesheet">
-        <link href="main.css" type="text/css" rel="stylesheet">
-    </head>
-    <body>
-        <div class="base">
-            <header class="title-header">
-                <figure class="title-img">
-                    <img src="./img/werewolf-moon.png" alt="werewolf moon" height="150px">
-                    <figcaption class="figCaption"></figcaption>
-                </figure>
-                <div class="title-text">
-                    <h1>Werewolf Events</h1>
-                    <h2>Werewolf Hunter App</h2>
-                </div>
-            </header>
-            <!-- <article class="base-content"> -->
-                <section class="month-dropdown">
-                    <h2>Attacks By Month</h2>
-                    <p>Click the button to view werewolf attacks by month.</p>
-                    <form class="dropdown">
-                        <select class="dropdown-content">
+
+<head>
+    <title>were.com</title>
+    <meta charset="utf-8">
+    <link href="reset.css" type="text/css" rel="stylesheet">
+    <link href="template.css" type="text/css" rel="stylesheet">
+    <link href="main.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="base">
+        <header class="title-header">
+            <figure class="title-img">
+                <img src="./img/werewolf-moon.png" alt="werewolf moon" height="150px">
+                <figcaption class="figCaption"></figcaption>
+            </figure>
+            <div class="title-text">
+                <h1>Werewolf Events</h1>
+                <h2>Werewolf Hunter App</h2>
+            </div>
+        </header>
+        <!-- <article class="base-content"> -->
+        <section class="month-dropdown">
+            <h2>Attacks By Month</h2>
+            <p>Click the button to view werewolf attacks by month.</p>
+            <form class="dropdown">
+                <select class="dropdown-content">
                             <option selected>Month</option>
                             <option class = "january">January</p>
                             <option class = "february">February</p>
@@ -39,53 +41,64 @@
                             <option class = "november">November</p>
                             <option class = "december">December</p>
                         </select>
-                    </form>
-                    <img src="./img/werewolf-bw.png" alt="werewolf" height="300px" class="werewolf-color">
-                </section>
-                <section class="table">
-                    <table class="dataTable">
-                      <tr>
-                        <th>Crime</th>
-                        <th>Date</th>
-                        <th>Lat</th>
-                        <th>Lon</th>
-                      </tr>
-                      <tr>
-                        <td>criminal-trespassing</td>
-                        <td>11/14/12</td>
-                        <td>39.738475</td>
-                        <td>-105.0287401</td>
-                      </tr>
-                      <tr>
-                        <td>assault-simple</td>
-                        <td>11/14/16</td>
-                        <td>39.738475</td>
-                        <td>-105.0287401</td>
-                      </tr>
-                      <tr>
-                        <td>aggravated-assault</td>
-                        <td>11/18/17</td>
-                        <td>39.738475</td>
-                        <td>-105.0287401</td>
-                      </tr>
-                      <tr>
-                      	<td></td>
-                      </tr>
-                    </table>
-                </section>
+            </form>
+            <img src="./img/werewolf-bw.png" alt="werewolf" height="300px" class="werewolf-color">
+        </section>
+        <section class="table">
+            <table class="dataTable">
+                <tr>
+                    <th>Crime</th>
+                    <th>Date</th>
+                    <th>Lat</th>
+                    <th>Lon</th>
+                </tr>
+                <tr>
+                    <td>criminal-trespassing</td>
+                    <td>11/14/12</td>
+                    <td>39.738475</td>
+                    <td>-105.0287401</td>
+                </tr>
+                <tr>
+                    <td>assault-simple</td>
+                    <td>11/14/16</td>
+                    <td>39.738475</td>
+                    <td>-105.0287401</td>
+                </tr>
+                <tr>
+                    <td>aggravated-assault</td>
+                    <td>11/18/17</td>
+                    <td>39.738475</td>
+                    <td>-105.0287401</td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+            </table>
+        </section>
 
-                <section class="map">
-                    <div id="map"></div>
-                </section>
+        <section class="map">
+            <div id="map"></div>
+            <!-- Replace the value of the key parameter with your own API key. -->
 
-                <footer class="footer">
-                    <small>&copy; Werewolf Hunter Inc.</small>
-                </footer>
+            <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCkUOdZ5y7hMm0yrcCQoCvLwzdM6M8s5qk&callback=initMap">
+            </script>
 
-        </div>
-        <script src="app.js"></script>
-        <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAs6kOQAPw5RgnlC3CI3CTeSFdyjpdOP_A&callback=initMap">
-    </script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBWXyO2X7h_p8t3iIybk3XZyKee1AJjHVY&callback=initMap"></script>
-    </body>
+
+            <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCkUOdZ5y7hMm0yrcCQoCvLwzdM6M8s5qk&callback=initMap">
+            </script>
+
+
+        </section>
+
+        <footer class="footer">
+            <small>&copy; Werewolf Hunter Inc.</small>
+        </footer>
+
+    </div>
+    <script src="app.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAs6kOQAPw5RgnlC3CI3CTeSFdyjpdOP_A&callback=initMap">
+    </script>
+
+</body>
+
 </html>

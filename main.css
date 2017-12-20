@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
  margin: 0 auto;
  background-color: black;
@@ -14,7 +18,6 @@ body {
 .title-header {
     display: flex
     /* justify-content: center; */
-    align-items:center;
     background-color: black;
     /* height: 150px; */
 }
@@ -42,9 +45,9 @@ h2{
     display: flex;
     flex-direction:column;
     align-items: center;
-    background-color: blue;
+    /* background-color: blue; */
     /* width: 360px; */
-     margin: 0 auto;
+     margin: 25px auto;
 }
 
 button.dropbtn {
@@ -53,28 +56,35 @@ button.dropbtn {
     /* height: 30px; */
 }
 
+img.werewolf-color {
+    margin-top: 50px;
+}
 .map {
-    background-color: white;
+    /* background-color: white; */
     height: 300px;
     /* width: 600px; */
     /* margin; 1rem; */
 }
 
 .table {
-    background-color: purple;
+    /* background-color: purple; */
     height: 300px;
     width: 600px;
-
 }
 
 .dataTable {
-    background-color: purple;
-    height: 150px;
-    width: 300px;
+
+    height: 200px;
+    width: 500px;
     margin: 20px auto;
+    /* padding: 10px; */
     /* margin; 1rem; */
 }
 
+.dataTable tbody {
+    margin: 20px;
+    padding: 10px;
+}
 /* dropdown menu */
 /*.dropbtn {
     background-color: gray;
@@ -85,11 +95,16 @@ button.dropbtn {
     cursor: pointer;
 }*/
 
+.month-dropdown p {
+    margin-top: 20px;
+}
 .dropdown {
     position: relative;
     display: inline-block;
 }
-
+select.dropdown-content {
+    margin-top: 30px
+}
 .dropdown-content {
     /*display: none;
     position: absolute;*/
@@ -129,7 +144,9 @@ button.dropbtn {
 }
 
 #map {
-  height: 100%;
+  height: 300px;
+  border: 10px solid darkred;
+  border-radius: 20px;
 }
 
 .werewolf-color {
