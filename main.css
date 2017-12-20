@@ -1,7 +1,8 @@
 body {
- margin: 0 auto;
+ /* margin: 0 auto; */
  background-color: black;
  color: white;
+
 }
 
 .base {
@@ -44,6 +45,7 @@ h2{
     align-items: center;
     background-color: blue;
     width: 360px;
+     margin: 0 auto;
 }
 
 button.dropbtn {
