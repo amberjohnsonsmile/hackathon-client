@@ -1,5 +1,5 @@
 body {
- /* margin: 0 auto; */
+ margin: 0 auto;
  background-color: black;
  color: white;
 
@@ -7,24 +7,25 @@ body {
 
 .base {
     /* background-color: gray; */
-    width: 1024px;
+    width: 960px;
     margin: 0 auto;
 }
 
 .title-header {
-    /* display: flex
-    align-items: flex-start; */
+    display: flex
+    justify-content: center;
     background-color: black;
-    height: 150px;
+    /* height: 150px; */
 }
 
 .title-text{
     margin: auto;
     text-align: center;
+    display: inline-block;
 }
 
 .title-img {
-
+    display: inline-block;
 }
 
 h1 {
@@ -47,22 +48,22 @@ h2{
 
 button.dropbtn {
     border: 2px solid white;
-    width: 250px;
+    /* width: 250px; */
     /* height: 30px; */
 }
 
 .map {
     background-color: white;
     height: 300px;
-    width: 600px;
-    margin; 1rem;
+    /* width: 600px; */
+    /* margin; 1rem; */
 }
 
 .dataTable {
     background-color: purple;
     height: 300px;
     width: 600px;
-    margin; 1rem;
+    /* margin; 1rem; */
 }
 
 /* dropdown menu */
@@ -122,8 +123,8 @@ button.dropbtn {
   height: 100%;
 }
 /* Optional: Makes the sample page fill the window. */
-html, body {
+/* html, body {
   height: 30vh;
   margin: 0;
   padding: 0;
-}
+} */
