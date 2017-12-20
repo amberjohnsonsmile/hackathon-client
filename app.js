@@ -1,5 +1,7 @@
 const apiURL = "http://localhost:3000/";
 
+// Fetching and post
+
 fetch(apiURL)
     .then(response => response.json())
     .then(console.log)
@@ -15,9 +17,9 @@ function postWolf() {
             "Content-Type": "application/json"
         })
     })
-        .then(response => response.json())
-        .then(console.log)
-        .catch(console.error);
+    .then(response => response.json())
+    .then(console.log)
+    .catch(console.error);
 }
 
 postWolf();
@@ -36,3 +38,10 @@ function initMap() {
     title: 'Hello World!'
   });
 }
+
+// Event listeners
+
+document.querySelector("select").addEventListener("change", event => {
+    event.preventDefault();
+    console.log("changed");
+});
