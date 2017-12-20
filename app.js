@@ -1,6 +1,6 @@
 const apiURL = "http://localhost:3000/";
 
-// Fetching and post
+// Fetch and post
 
 fetch(apiURL)
     .then(response => response.json())
@@ -29,4 +29,5 @@ postWolf();
 document.querySelector("select").addEventListener("change", event => {
     event.preventDefault();
     console.log("changed");
+
 });
