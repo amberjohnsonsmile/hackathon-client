@@ -41,38 +41,44 @@
                         </select>
                     </form>
                 </section>
-                <section class="dataTable">
-                    <table>
-                        <tr>
-                            <th>Crime</th>
-                            <th>Date</th>
-                            <th>Lat</th>
-                            <th>Lon</th>
-                        </tr>
-                        <tr>
-                            <td>criminal-trespassing</td>
-                            <td>11/14/12</td>
-                            <td>39.738475</td>
-                            <td>-105.0287401</td>
-                        </tr>
-                        <tr>
-                            <td>assault-simple</td>
-                            <td>11/14/16</td>
-                            <td>39.738475</td>
-                            <td>-105.0287401</td>
-                        </tr>
-                        <tr>
-                            <td>aggravated-assault</td>
-                            <td>11/18/17</td>
-                            <td>39.738475</td>
-                            <td>-105.0287401</td>
-                        </tr>
-                        <tr>
-                            <td>
+                <section>
+                    <table class="dataTable">
+                      <tr>
+                        <th>Crime</th>
+                        <th>Date</th>
+                        <th>Lat</th>
+                        <th>Lon</th>
+                      </tr>
+                      <tr>
+                        <td>criminal-trespassing</td>
+                        <td>11/14/12</td>
+                        <td>39.738475</td>
+                        <td>-105.0287401</td>
+                      </tr>
+                      <tr>
+                        <td>assault-simple</td>
+                        <td>11/14/16</td>
+                        <td>39.738475</td>
+                        <td>-105.0287401</td>
+                      </tr>
+                      <tr>
+                        <td>aggravated-assault</td>
+                        <td>11/18/17</td>
+                        <td>39.738475</td>
+                        <td>-105.0287401</td>
+                      </tr>
+                      <tr>
+                      	<td></td>
+                      </tr>
                     </table>
                 </section>
 
                 <section class="map">
+                    <div id="map"></div>
+    <!-- Replace the value of the key parameter with your own API key. -->
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCkUOdZ5y7hMm0yrcCQoCvLwzdM6M8s5qk&callback=initMap">
+    </script>    
 
                 </section>
 
@@ -81,6 +87,6 @@
             </footer>
 
         </div>
-        <script src="app.js"></script>
+
     </body>
 </html>
