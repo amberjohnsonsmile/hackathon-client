@@ -1,19 +1,28 @@
-/* body {
-
-} */
+body {
+ margin: 0 auto;
+ background-color: black;
+ color: white;
+}
 
 .base {
     background-color: gray;
     width: 960px;
     margin: 0 auto;
 }
-
+/* * {
+    margin: 1rem;
+} */
 .title-header {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: flex-start;
     background-color: black;
     height: 150px;
+}
+
+.title-text{
+    margin: auto;
+    text-align: center;
 }
 
 .title-img {
@@ -25,12 +34,44 @@ h1 {
     font-size: 48px;
 }
 
+h2{
+    font-size: 24px;
+}
+
+.month-dropdown {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    background-color: blue;
+    width: 360px;
+}
+
+button.dropbtn {
+    border: 2px solid white;
+    width: 250px;
+    /* height: 30px; */
+}
+
+.map {
+    background-color: white;
+    height: 300px;
+    width: 600px;
+    margin; 1rem;
+}
+
+.dataTable {
+    background-color: purple;
+    height: 300px;
+    width: 600px;
+    margin; 1rem;
+}
+
 /* dropdown menu */
 .dropbtn {
     background-color: gray;
     color: white;
     padding: 16px;
-    font-size: 16px;
+    font-size: 24px;
     border: none;
     cursor: pointer;
 }
