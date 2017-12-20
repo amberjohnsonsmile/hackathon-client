@@ -12,8 +12,8 @@ body {
 }
 
 .title-header {
-    /* display: flex
-    align-items: flex-start; */
+    display: flex;
+    /*flex-direction: row;*/
     background-color: black;
     height: 150px;
 }
@@ -126,4 +126,8 @@ html, body {
   height: 30vh;
   margin: 0;
   padding: 0;
+}
+
+.werewolf-color {
+    margin-top: 20vh;
 }
