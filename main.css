@@ -12,13 +12,8 @@ body {
 }
 
 .title-header {
-<<<<<<< HEAD
-    display: flex;
-    /*flex-direction: row;*/
-=======
     display: flex
     justify-content: center;
->>>>>>> 1a2bbf27a586f0e33b002573a8f64c333c76d7a5
     background-color: black;
     /* height: 150px; */
 }
@@ -135,17 +130,7 @@ button.dropbtn {
 #map {
   height: 100%;
 }
-/* Optional: Makes the sample page fill the window. */
-/* html, body {
-  height: 30vh;
-  margin: 0;
-  padding: 0;
-<<<<<<< HEAD
-}
 
 .werewolf-color {
     margin-top: 20vh;
 }
-=======
-} */
->>>>>>> 1a2bbf27a586f0e33b002573a8f64c333c76d7a5
