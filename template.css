@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: 1fr auto;
     grid-template-rows: 150px auto auto 50px;
+    /* grid-gap: 1rem; */
     grid-template-areas:
     "header header"
     "aside  aTable"
@@ -9,7 +10,7 @@
     "footer footer"
 }
 
-.title-header, .month-dropdown, .dataTable, .map, .footer {
+.month-dropdown, .dataTable, .map, .footer {
     padding: 1rem;
 }
 
@@ -21,7 +22,7 @@
     grid-area: aside;
 }
 
-.dataTable {
+.table {
     grid-area: aTable;
 
 }
