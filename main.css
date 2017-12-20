@@ -6,15 +6,14 @@ body {
 }
 
 .base {
-    background-color: gray;
-    width: 960px;
+    /* background-color: gray; */
+    width: 1024px;
     margin: 0 auto;
 }
 
 .title-header {
-    display: flex;
-    /* justify-content: space-between; */
-    align-items: flex-start;
+    /* display: flex
+    align-items: flex-start; */
     background-color: black;
     height: 150px;
 }
@@ -42,7 +41,7 @@ h2{
     flex-direction:column;
     align-items: center;
     background-color: blue;
-    width: 360px;
+    /* width: 360px; */
      margin: 0 auto;
 }
 
