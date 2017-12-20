@@ -140,9 +140,7 @@ button.dropbtn {
   border: 10px solid darkred;
   border-radius: 20px;
 }
-/* Optional: Makes the sample page fill the window. */
-/* html, body {
-  height: 30vh;
-  margin: 0;
-  padding: 0;
-} */
+
+.werewolf-color {
+    margin-top: 20vh;
+}
