@@ -1,7 +1,4 @@
-//const apiURL = "http://localhost:3000/";
 const apiURL = "https://morning-fjord-96521.herokuapp.com/"
-
-// Fetch and post
 
 fetch(apiURL)
     .then(response => response.json())
@@ -39,8 +36,6 @@ function initMap() {
     title: 'Hello World!'
   });
 }
-
-// Event listeners
 
 document.querySelector("select").addEventListener("change", event => {
     event.preventDefault();
